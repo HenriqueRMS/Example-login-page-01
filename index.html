@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="HenriqueRMS">
+    <title>Login Page 01</title>
+</head>
+<body>
+    <div class="container">
+    <section class="lado-esquerdo">
+    <div class="titulo">
+        <h1>Faça seu login</h1>
+
+    </div>
+<form>
+    <div class="inputs">
+        <p>Seu Email:</p>
+        <input class="txt" type="e-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Endereço de e-mail."/>
+        <p>Sua Senha:</p>
+        <input class="txt" type="password" required title="Senha" minlength="8">
+    </div>
+
+    <div class="abaixo">
+        <input id="enviar" type="submit" value="acessar">
+        <a>Esqueceu a senha?</a>
+    </div>
+        <h3>É a primeira vez que vem aqui?</h3>
+        <button onclick="criarConta()">criar conta</button>
+</form>    
+<h6>By:HenriqueRMS</h6>    
+    </section>
+
+    <section class="lado-direito">
+        <img src="a2.png" id="imagem" alt="Imagem de um homem usando o computador">
+        <h4>Link de atribuição da imagem : </h4>
+       <h5> <a href='https://br.freepik.com/fotos-vetores-gratis/pessoas'>Pessoas foto criado por lookstudio - br.freepik.com</a></h5>
+    </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
